@@ -21,6 +21,9 @@ function mostrarEnLista() {
 function obtenerOperacionElegida() {
     let operacionElegida = "";
     let operaciones = document.getElementsByName("operacion");
+    //getElementsByName devuelve un array con todos los elementos que tengan el mismo name
+
+    //Recorremos el array de todas las operaciones y vemos cuál esta seleccionada
     for (let i = 0; i < operaciones.length; i++) {
         if (operaciones[i].checked) {
             operacionElegida = operaciones[i].value;
