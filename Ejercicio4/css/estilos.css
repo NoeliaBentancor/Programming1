@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #1db28f;
+    font-size: 30px;
+}
+
+#botonConsultar {
+    color: rgb(25, 23, 23);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
